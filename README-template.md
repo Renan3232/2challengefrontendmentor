@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](C:Users\Borge\OneDrive\Desktop\social-proof-section-master\images\solution.print.jpg)
+![](C:\Users\Borge\OneDrive\Desktop\social-proof-section-master\images\solution print.jpg)
 
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
