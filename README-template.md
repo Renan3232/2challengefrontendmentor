@@ -27,8 +27,8 @@ Users should be able to:
 - View the optimal layout for the section depending on their device's screen size
 
 ### Screenshot
-(.\images\solution print.jpg)
-(./design/desktop-preview.jpg)
+(./images\solution print.jpg)
+
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
