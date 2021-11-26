@@ -31,8 +31,8 @@ Users should be able to:
 ![](/creenshot.jpg)
 
 
-- Solution URL: [](https://github.com/Renan3232/2challengefrontendmentor)
-- Live Site URL: [](https://zealous-wiles-8c3442.netlify.app/)
+- Solution URL: [https://github.com/Renan3232/2challengefrontendmentor](https://github.com/Renan3232/2challengefrontendmentor)
+- Live Site URL: [https://zealous-wiles-8c3442.netlify.app/](https://zealous-wiles-8c3442.netlify.app/)
 
 ## My process-
 So I've started with the mobile design, adding structure to HTML and then styling it, then I've used CSS to style the HTML, trying to make it as similiar as possible of the layout, and I added @media queries to style the desktop design.
@@ -61,7 +61,7 @@ Making the code shorter is one of the things that I'm trying to keep an eye open
 
 ### Useful resources
 
-- [Example resource 1](https://www.w3schools.com/) - I basically used just this source over this challenge, it helped me to remeber some basic but import aspects of my code, such as Padding, Margin, box-sizing.
+- [w3Schools](https://www.w3schools.com/) - I basically used just this source over this challenge, it helped me to remeber some basic but import aspects of my code, such as Padding, Margin, box-sizing.
 -
 
 ## Author
