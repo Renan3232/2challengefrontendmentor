@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&family=Spartan:wght@400;500;700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+     
+/*Main Head,Mobile layout */
+
+.mainhead {
+    margin-top:70px;
+    text-align: center;
+    color: hsl(300, 43%, 22%);
+    font-family: Spartan;
+    font-weight: 700;
+    
+}
+
+/*main Paragraph*/
+
+.mainp {
+    width: 370px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color:hsl(300, 43%, 22%);
+    font-family: Spartan;
+    font-weight: 400;
+    
+}
+
+/* stars and rates*/
+
+.reviwes  {
+    width: 90%;
+    height:70px ;
+    text-align:center;
+    background-color: hsl(300, 24%, 96%);
+    margin: auto;
+    padding-top:30px;
+    border-radius: 10px;
+    font-family: Spartan;
+    font-weight: 700;
+ 
+
+}
+
+.reviwes p {
+    margin-top: 5px;
+    color:hsl(300, 43%, 22%);
+}
+
+
+.guru {
+    width: 90%;
+    height:70px ;
+    text-align:center;
+    background-color: hsl(300, 24%, 96%);
+    margin: auto;
+    margin-top: 20px;
+    padding-top:30px;
+    border-radius: 10px;
+    font-family: Spartan;
+    font-weight: 700;
+
+}
+
+.guru p {
+    margin-top: 5px;
+    color:hsl(300, 43%, 22%);
+}
+
+.BestTech {
+    width: 90%;
+    height:70px ;
+    text-align:center;
+    background-color: hsl(300, 24%, 96%);
+    margin: auto;
+    margin-top: 20px;
+    padding-top:30px;
+    border-radius: 10px;
+    font-family: Spartan;
+    font-weight: 700;
+
+}
+
+.BestTech p {
+    margin-top: 5px;
+    color:hsl(300, 43%, 22%);
+}
+
+/*first buyer comment*/
+.colton {
+    background-color:hsl(300, 43%, 22%);
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    height: 300px;
+    width: 90%;
+    border-radius: 10px;
+    position: relative;
+    
+
+}
+
+ .colton p  {
+ color: hsl(0, 0%, 100%);
+ padding-top: 60px;
+ padding-left: 40px;
+ padding-bottom: 10px;
+ text-align: left;
+ font-size: 15px;
+ font-family: spartan;
+ font-weight: 500;
+ line-height: 1.5;
+ 
+}
+
+/*buyers pictures*/
+
+img {
+    
+    padding-right: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 10%;
+    width: 70px;
+
+
+    
+}
+/*buyers names*/
+ h3 {
+
+    color:hsl(0, 0%, 100%);
+    padding-top:60px;
+    font-family: spartan;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+h3 span {
+    font-weight: 400;
+    color:hsl(333, 80%, 67%) ;
+}
+
+/*stars icons*/
+
+svg {
+    width:7%;
+}
+
+/* second buyer comment*/
+.irene {
+    background-color:hsl(300, 43%, 22%);
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+
+.irene p {
+    color: hsl(0, 0%, 100%);
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 15px;
+    font-family: spartan;
+    font-weight: 500;
+    line-height: 1.5;
+}
+/*attribuition, mobile layout*/
+
+.attribution{
+    margin-top: 40px;
+    
+    
+}
+
+
+/*desktop layout*/
+
+@media screen and (min-width: 768px) {
+
+/*main head H1,desktop */
+
+    .mainhead{
+        text-align: left;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+/*main text,desktop */
+
+    .mainp {
+        width:500px ;
+        text-align: left;
+        margin:10px 20px 10px 50px;}
+    
+     
+/*rates section desktop*/
+
+.reviwes {
+     height: 70px;
+     width: 550px;
+     position: relative;
+     bottom: 200px;
+     left: 200px;
+     max-width: 700px;
+     padding-left: 30px;
+     box-sizing: border-box; 
+    
+     
+ }
+
+ .reviwes p,.guru p,.BestTech p {
+    padding-right:50px ;
+    padding-top: 1px;
+    position: relative;
+    bottom:10px;
+    text-align: left;
+
+    
+}
+.guru {
+
+    height: 70px;
+    width: 550px;
+    position: relative;
+    bottom: 200px;
+    left: 250px;
+    max-width: 700px;
+    padding-left: 30px;
+    box-sizing: border-box; 
+}
+
+.BestTech {
+    
+    height: 70px;
+    width: 550px;
+    position: relative;
+    bottom: 200px;
+    left: 300px;
+    max-width: 700px;
+    padding-left: 30px;
+    box-sizing: border-box; }
+
+/*end of rates section,desktop*/
+
+
+/*comment section,desktop*/
+
+.colton {
+    max-width: 30%;
+    max-height: 25%;
+    float: left;
+    position: relative;
+    bottom:220px;
+    margin-left: 50px;
+}
+
+.irene {
+    position: relative;
+    bottom:300px;
+    left:400px;
+}
+
+
+/*stars icons,desktop*/
+svg {
+    width:7%;
+    float: left;
+    max-width:7% ;
+    position: relative;
+    bottom: 6px;
+
+}
+
+
+
+}
