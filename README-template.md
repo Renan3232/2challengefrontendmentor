@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](/creenshot.jpg)
+![Solution printscreen](images\screenshot.jpg)
 
 
 - Solution URL: [https://github.com/Renan3232/2challengefrontendmentor](https://github.com/Renan3232/2challengefrontendmentor)
