@@ -94,6 +94,8 @@
 }
 
 /*first buyer comment*/
+
+
 .colton {
     background-color:hsl(300, 43%, 22%);
     text-align: center;
@@ -196,66 +198,65 @@ svg {
 
 /*main head H1,desktop */
 
-    .mainhead{
+    .mainhead  {
         text-align: left;
-        margin-left: 50px;
-        margin-top: 50px;
+        margin-left:100px;
+        margin-top: 1.2cm;
+        font-size: 20px;
+        
+        width: 35%;
     }
 
 /*main text,desktop */
 
     .mainp {
-        width:500px ;
+        width:450px ;
         text-align: left;
-        margin:10px 20px 10px 50px;}
+        margin:10px 0px 10px 100px;
+        line-height: 1.8;
+        font-size: 15px;
+        
+    }
     
      
 /*rates section desktop*/
 
-.reviwes {
-     height: 70px;
-     width: 550px;
+.reviwes, .guru,.BestTech {
+     height: 40px;
+     width: 400px;
      position: relative;
-     bottom: 200px;
-     left: 200px;
-     max-width: 700px;
-     padding-left: 30px;
-     box-sizing: border-box; 
+     bottom: 240px;
+     left: 150px;
+     max-width: 400px;
+     box-sizing: border-box;
+    
     
      
  }
 
- .reviwes p,.guru p,.BestTech p {
-    padding-right:50px ;
-    padding-top: 1px;
+ .reviwes p,.BestTech p {
     position: relative;
-    bottom:10px;
-    text-align: left;
-
-    
+    bottom: 40px;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 90px; 
 }
-.guru {
-
-    height: 70px;
-    width: 550px;
+.guru p {
     position: relative;
-    bottom: 200px;
-    left: 250px;
-    max-width: 700px;
-    padding-left: 30px;
-    box-sizing: border-box; 
+    bottom:40px;
+    font-size: 12px;
+    text-align:right;
+    padding-right: 60px;
+
+}
+
+.guru {
+    left:200px;
 }
 
 .BestTech {
-    
-    height: 70px;
-    width: 550px;
-    position: relative;
-    bottom: 200px;
-    left: 300px;
-    max-width: 700px;
-    padding-left: 30px;
-    box-sizing: border-box; }
+    left: 250px;
+}
 
 /*end of rates section,desktop*/
 
@@ -263,29 +264,70 @@ svg {
 /*comment section,desktop*/
 
 .colton {
-    max-width: 30%;
-    max-height: 25%;
+    max-width: 7.3cm;
+    max-height:5cm;
     float: left;
     position: relative;
-    bottom:220px;
-    margin-left: 50px;
+    bottom:160px;
+    margin-left: 100px;
+    
+}
+
+.colton p {
+    font-size: 10px;
+    text-align: left;
+    position: relative;
+    bottom: 60px;
+
+
+}
+h3 {
+    position: relative;
+    bottom:30px;
+    left: 10px;
+    font-size: 12px;
+}
+
+
+img {
+    
+    padding-right: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 10%;
+    width: 50px;
+
+
+    
 }
 
 .irene {
+    max-width: 7.3cm;
+    max-height:5cm;
     position: relative;
-    bottom:300px;
-    left:400px;
+    bottom:260px;
+    left:300px;
+    
 }
 
 
 /*stars icons,desktop*/
-svg {
-    width:7%;
-    float: left;
-    max-width:7% ;
-    position: relative;
-    bottom: 6px;
 
+ svg {
+    width:5%;
+    height:100;
+    position: relative;
+    bottom: 18px;
+    right:120px;
+    
+}
+/*attribution*/
+.attribution {
+    position: relative;
+    bottom:150px;
+    left:285px;
+    padding-bottom: 0;
 }
 
 
